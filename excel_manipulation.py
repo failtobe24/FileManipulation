@@ -8,7 +8,7 @@ import openpyxl
 
 # Apri il file excel in questione: cambi il path in base alle tue esigenze
 # excel_path = "D:\\personal\\Esempio_Estrazione_Ldap.xlsx"
-excel_path = "/home/alex/Temp_Document.xlsx"
+excel_path = "/home/riccardo/Temp_Document.xlsx"
 interesting_tags = {
     'cn', 'sn', 'c', 'title', 'postalCode', 'givenName',
     'department', 'streetAddress', 'mail', 'mobile'
